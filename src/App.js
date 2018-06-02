@@ -54,7 +54,8 @@ const Transparent = styled.div`
 
 const StyledCard = styled(Card)`
   height: 200px;
-  border: solid 2px gold  !important;
+  border: solid 2px black  !important;
+  background-color: #F3EF7D !important;
 `
 
 const IssueCard = StyledCard.extend`
@@ -146,6 +147,9 @@ class App extends React.Component {
         <Segment as={Transparent}>
           <Header as={HeaderText}>
             Contact
+            </Header>
+            <Header fSize='small' as={HeaderText} >
+            Currently not functioning
           </Header>
         </Segment>
       </AppContainer>
