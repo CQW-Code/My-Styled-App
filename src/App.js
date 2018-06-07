@@ -35,6 +35,8 @@ const SearchBox = styled.input.attrs({
   border-radius: 10px;
   padding: 10px;
   margin: 10px;
+  background: #DCDCDC;
+  border: solid 2px black !important;
 `
 
 const Star = styled.div`
@@ -45,7 +47,7 @@ const Star = styled.div`
 `
 
 const AppContainer = styled.div`
-  background: linear-gradient(to bottom right, lightgreen, black);
+  background: linear-gradient(to bottom right, #9BCD9B, #577A3A);
 `
 
 const Transparent = styled.div`
@@ -55,7 +57,7 @@ const Transparent = styled.div`
 const StyledCard = styled(Card)`
   height: 200px;
   border: solid 2px black  !important;
-  background-color: #F3EF7D !important;
+  background-color: #EEC900 !important;
 `
 
 const IssueCard = StyledCard.extend`
